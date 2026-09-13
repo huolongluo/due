@@ -1,0 +1,33 @@
+{
+  "name": "due",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The model can underwrite. It cannot advance until Attestcoin proves the buyer paid. BUIDL CTC 2026 Fall — AI + RWA.",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3077",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3077",
+    "test": "node --import tsx --test src/lib/policy.test.ts src/lib/underwrite.test.ts src/lib/file.test.ts",
+    "chain:compile": "node scripts/compile.mjs",
+    "chain:deploy": "node scripts/deploy.mjs",
+    "demo:video": "node scripts/record-demo.mjs"
+  },
+  "dependencies": {
+    "@gluwa/usc-sdk": "^0.18.0",
+    "ethers": "^6.15.0",
+    "next": "^16.3.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "playwright": "^1.55.0",
+    "solc": "^0.8.28",
+    "tsx": "^4.20.5",
+    "typescript": "^5.8.2",
+    "viem": "^2.38.0"
+  }
+}
