@@ -19,8 +19,9 @@ Use `DORAHACKS.md`.
 - Demo: http://127.0.0.1:3077/desk?play=1
 - How: /how
 - Video open: /open
-- Deck: docs/deck.html
-- Whitepaper: docs/whitepaper.md
+- Deck: https://github.com/huolongluo/due/blob/main/docs/deck.pdf
+- Whitepaper: https://github.com/huolongluo/due/blob/main/docs/whitepaper.md
+- Video: https://github.com/huolongluo/due/raw/main/docs/demo.mp4
 
 ## Demo video
 
@@ -32,7 +33,7 @@ Use `DORAHACKS.md`.
 - [x] Working Attestcoin integration (`DueVault.cite` → `0x0FD2`)
 - [x] Technical docs (`docs/ATTESTCOIN.md`)
 - [ ] Testnet deployment (`npm run chain:deploy` once keys are funded)
-- [ ] Public GitHub with README
-- [ ] Deck / whitepaper URL
-- [ ] Demo video URL
+- [x] Public GitHub with README — https://github.com/huolongluo/due
+- [x] Deck / whitepaper URL — https://github.com/huolongluo/due/blob/main/docs/deck.pdf
+- [x] Demo video URL — https://github.com/huolongluo/due/raw/main/docs/demo.mp4
 - [ ] DoraHacks BUIDL submitted (registering is not enough)
